@@ -9,10 +9,38 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <title>PortFolio de BFF</title>
   </head>
   <body>
+      <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+          <div class="container">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                  <span class="sr-only">Navigation Raccourcie</span>
+              </button> 
+              <a class="navbar-brand" href="#">Mon portfolio</a>
+              <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                      <li class="active nav-item">
+                          <a href="index.html" class="nav-link">
+                              <span class="fa fa-home"></span>
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="cv.html" class="nav-link">
+                              <span class="fa fa-id-badge"></span>
+                          </a>
+                      </li>
+                      <li class="dropdown nav-item">
+                          <a href="#" class=dropdown-toggle nav-link" data-toggle="dropdown" role="button">
+                              <span class="fa fa-list-alt">Réalisations</span><span class="caret"></span>
+                          </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
     <h1>Bonjour et bienvenue sur mon portfolio</h1>
 
     <!-- Optional JavaScript; choose one of the two! -->
